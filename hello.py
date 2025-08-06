@@ -3,7 +3,11 @@ import config
 
 def say_hello(name):
     now = datetime.datetime.now()
+<<<<<<< HEAD
     print(f"Hi, {name} from {config.APP_NAME}!")
+=======
+    print(f"Goodbye, {name} from {config.APP_NAME}!")
+>>>>>>> feature-farewell
     print(f"Today is {now.strftime('%Y-%m-%d')}.")
 
 def greet_user():
